@@ -1,0 +1,12 @@
+yarn
+
+->yarn init
+
+
+eslint
+-> install eslint in viscode
+
+npm install -g eslint
+yarn add eslint-config-rallycoding --dev
+
+=> config-> create file .eslintrc { "extends":"rallycoding"}

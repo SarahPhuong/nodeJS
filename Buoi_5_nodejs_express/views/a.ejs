@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--cach viet js-->
+<% const name= "Phuong"; %>
+    <html lang="en">
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <% if(isAdmin){ %>
+        <h1> Xin chao ! <%= name %> <h1>
+            <p>Bang dieu khien </p>
+        <% }else{ %>
+            <p>Ban khong phai admin</p>
+        <% } %>
+    </body>
+
+    </html>
